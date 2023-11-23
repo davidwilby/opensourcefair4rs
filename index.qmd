@@ -143,3 +143,28 @@ css: style.css
 </font>
 
 <font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
+
+## Why?
+
++ Accelerate research
++ Increase citation
++ Reduce duplication of effort
++ Transparency - easier finding of errors
+
+
+## Open Source Software (OSS)
+
+## OSS vs FAIR4RS vs Reproducible
+
+
+
+## Barriers to open sourcing
+
++ fear of prejudice
++ fear of 'theft'
++ technical and time barriers
++ non-commercialisable?
+
+
+
+## Resources & References
