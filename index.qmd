@@ -1,0 +1,145 @@
+---
+title: "Open source research software and the FAIR4RS principles"
+format:
+    revealjs:
+        theme: [serif,custom.scss]
+        slide-number: true
+        show-slide-number: speaker
+author: "<br>**Dr David Wilby** (he/him)<br>[RSE Team](https://rse.shef.ac.uk/), The University of Sheffield<br>[rse.shef.ac.uk](https://rse.shef.ac.uk) | [davidwilby.dev](https://davidwilby.dev)"
+institute: "<br><strong>Open Research Conversations × LunchBytes</strong>, Wed 6th Dec 2023"
+date: ""
+footer: "**slides**: [davidwilby.dev/opensourcefair4rs](https://davidwilby.dev/opensourcefair4rs) - **improve this talk!** [github.com/davidwilby/opensourcefair4rs](https://github.com/davidwilby/opensourcefair4rs)"
+from: markdown+emoji
+css: style.css
+---
+
+## Who am I?
+**And why should I be talking about this?**
+
+::: columns
+
+::: {.column width="40%"}
+
+![<font size="2">[Wilby & Roberts (2017) *J. Exp. Bio.*](https://journals.biologists.com/jeb/article/220/11/1997/17957)</font>](assets/images/jexbio_220_11_coverfig.png){width="350"}
+
+:::
+
+::: {.column width="60%"}
+
+::: {layout-nrow=2}
+
+![](assets/images/rse-unicorn.jpg){width="350"}
+
+[![](assets/images/RSE_logo_blackborder.png){width="200"}](https://rse.shef.ac.uk)
+
+[![](assets/images/SSIFullColour.png)](https://software.ac.uk)
+:::
+
+:::
+:::
+
+## I've made *all* the mistakes
+
+:::{.incremental}
+* [Wilby *et al.* *J. R. Soc. Interface* (2015)](https://royalsocietypublishing.org/doi/10.1098/rsif.2015.0591) - *very* code heavy
+    * :skull_and_crossbones: No code whatsoever, just equations
+    * :skull_and_crossbones: Some supplementary data in some unknown format..
+    * :astonished: Some data shared
+:::
+
+## I've made *all* the mistakes
+
+:::{.incremental}
+* [Wilby & Roberts *J. Exp. Biol* (2017)](https://doi.org/10.1242/jeb.152918)
+    * :skull_and_crossbones: No code whatsoever, just equations
+        * > and **bespoke code written in MATLAB** (v8.3; MathWorks, Natick, MA, USA). :facepalm:
+    * :skull_and_crossbones: No data shared at all
+:::
+
+# How do we do better?
+
+## What is *software*?
+
+. . .
+
+![](assets/images/software-code-twitter-poll.png){fig-align="center"}
+
+## and *"Research Software"*?
+
+> “**source code files, algorithms, scripts, computational workflows and executables that were created during the research process or for a research purpose.**"
+
+<font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
+
+##
+
+![<font size="2">[The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html) project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://dx.doi.org/10.5281/zenodo.3332807)</font>](assets/images/fair-principles.png)
+
+## Findable
+
+**Software, and its associated metadata, is easy for both humans and machines to find.**
+
+<font size=6>
+<ol type="1">
+<li>Software is assigned a globally unique and persistent identifier
+    <ol type="i">
+        <li>Components of the software representing levels of granularity are assigned distinct identifiers.</li>
+        <li>Different versions of the software are assigned distinct identifiers.</li>
+    </ol>
+</li>
+<li>Software is described with rich metadata.</li>
+<li>Metadata clearly and explicitly include the identifier of the software they describe.</li>
+<li>Metadata are FAIR, searchable and indexable.</li>
+</ol>
+</font>
+
+<font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
+
+## Accessible
+
+**Software, and its metadata, is retrievable via standardised protocols.**
+
+<font size=6>
+<ol type="1">
+<li>Software is retrievable by its identifier using a standardised communications protocol.
+    <ol type="i">
+        <li>The protocol is open, free, and universally implementable.</li>
+        <li>The protocol allows for an authentication and authorization procedure, where necessary.</li>
+    </ol>
+</li>
+<li>Metadata are accessible, even when the software is no longer available.</li>
+</ol>
+</font>
+
+<font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
+
+## Interoperable
+
+**Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards.**
+
+<font size=6>
+<ol type="1">
+<li>Software reads, writes and exchanges data in a way that meets domain-relevant community standards.</li>
+<li>Software includes qualified references to other objects.</li>
+</ol>
+</font>
+
+<font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
+
+## Reusable
+
+**Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).**
+
+<font size=6>
+<ol type="1">
+<li>Software is described with a plurality of accurate and relevant attributes.
+    <ol type="i">
+        <li>Software is given a clear and accessible license.</li>
+        <li>Software is associated with detailed provenance.</li>
+    </ol>
+</li>
+<li>Software includes qualified references to other software.</li>
+<li>Software meets domain-relevant community standards.</li>
+</ol>
+</font>
+
+<font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
