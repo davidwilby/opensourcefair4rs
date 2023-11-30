@@ -13,6 +13,24 @@ from: markdown+emoji
 css: style.css
 ---
 
+## LunchBytes
+::: {.incremental}
+* :face_with_spiral_eyes: intermittent seminar series
+* :nerd_face: focus on technical tips and stories
+* :call_me_hand: [massive back catalogue of recordings including:](https://rse.shef.ac.uk/community/lunch-bytes)
+    * [Reproducible R](https://rse.shef.ac.uk/events/lunchbytes-2021-05-12.html)
+    * [From research (software) to freelance app developer](https://rse.shef.ac.uk/events/lunchbytes-2022-10-20.html)
+    * [Tips for git](https://rse.shef.ac.uk/events/lunchbytes-2022-05-19.html)
+    * [Deploying machine learning models](https://rse.shef.ac.uk/events/lunchbytes-2021-07-05.html)
+    * [& many more!](https://rse.shef.ac.uk/community/lunch-bytes)
+:::
+
+## LunchBytes
+
+[rse.shef.ac.uk/community/lunch-bytes](https://rse.shef.ac.uk/community/lunch-bytes)
+
+[Join the RSE mailing list for announcements](https://groups.google.com/a/sheffield.ac.uk/g/rse-group)
+
 ## Who am I?
 **And why should I be talking about this?**
 
@@ -38,7 +56,9 @@ css: style.css
 :::
 :::
 
-## I've made *all* the mistakes
+# I've made *all* the mistakes
+
+##
 
 :::{.incremental}
 * [Wilby *et al.* *J. R. Soc. Interface* (2015)](https://royalsocietypublishing.org/doi/10.1098/rsif.2015.0591) - *very* code heavy
@@ -47,7 +67,7 @@ css: style.css
     * :astonished: Some data shared
 :::
 
-## I've made *all* the mistakes
+##
 
 :::{.incremental}
 * [Wilby & Roberts *J. Exp. Biol* (2017)](https://doi.org/10.1242/jeb.152918)
@@ -94,7 +114,30 @@ css: style.css
 
 <font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
 
-## Accessible
+## Findable {background-color="black" background-image="assets/images/andriyko-podilnyk-RCfi7vgJjUY-unsplash.jpg" background-opacity="0.5"}
+
+**Software, and its associated metadata, is easy for both humans and machines to find.**
+
+<font size=6>
+<ol type="1">
+<li>Software is assigned a globally unique and persistent identifier
+    <ol type="i">
+        <li>Components of the software representing levels of granularity are assigned distinct identifiers.</li>
+        <li>Different versions of the software are assigned distinct identifiers.</li>
+    </ol>
+</li>
+<li>Software is described with rich metadata.</li>
+<li>Metadata clearly and explicitly include the identifier of the software they describe.</li>
+<li>Metadata are FAIR, searchable and indexable.</li>
+</ol>
+</font>
+
+<font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
+
+<font size=2>Photo by <a href="https://unsplash.com/@andriyko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andriyko Podilnyk</a> on <a href="https://unsplash.com/photos/orange-tabby-kitten-in-grasses-RCfi7vgJjUY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></font>
+  
+
+## Accessible {background-color="white" background-image="assets/images/jonatan-pie-xgTMSz6kegE-unsplash.jpg" background-opacity="0.5"}
 
 **Software, and its metadata, is retrievable via standardised protocols.**
 
@@ -112,7 +155,10 @@ css: style.css
 
 <font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
 
-## Interoperable
+<font size=2>Photo by <a href="https://unsplash.com/@r3dmax?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonatan Pie</a> on <a href="https://unsplash.com/photos/white-fox-sitting-on-snow-during-daytime-xgTMSz6kegE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></font>
+  
+
+## Interoperable {background-color="black" background-image="assets/images/sebastian-latorre-xGiqiL483Oc-unsplash.jpg"  background-opacity="0.5"}
 
 **Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards.**
 
@@ -125,7 +171,10 @@ css: style.css
 
 <font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
 
-## Reusable
+<font size=2>Photo by <a href="https://unsplash.com/@sebalatorre?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Latorre</a> on <a href="https://unsplash.com/photos/brown-squirrel-on-tree-log-xGiqiL483Oc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></font>
+  
+
+## Reusable {background-color="black" background-image="assets/images/karsten-winegeart--_gMskl-uoc-unsplash.jpg"  background-opacity="0.5"}
 
 **Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).**
 
@@ -144,6 +193,17 @@ css: style.css
 
 <font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
 
+<font size=2>Photo by <a href="https://unsplash.com/@karsten116?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karsten Winegeart</a> on <a href="https://unsplash.com/photos/white-and-brown-long-coated-small-dog--_gMskl-uoc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></font>
+  
+
+## FAIR4RS4Humans
+
+- [x] Put your code out in the open
+- [x] Include metadata
+- [x] Use non-proprietary tools/formats
+- [x] Create persistent identifiers (eg DOIs)
+- [x] Design code to be sustainable and reproducible
+
 ## Why?
 
 + Accelerate research
@@ -151,20 +211,20 @@ css: style.css
 + Reduce duplication of effort
 + Transparency - easier finding of errors
 
+## Barriers to FAIR4RS
 
-## Open Source Software (OSS)
-
-## OSS vs FAIR4RS vs Reproducible
-
-
-
-## Barriers to open sourcing
-
+::: {.incremental}
 + fear of prejudice
+    + important to create a positive culture
 + fear of 'theft'
+    + licensing and citation
 + technical and time barriers
+    + support is available!
+    + only need to learn once
 + non-commercialisable?
-
+    + open source and commercialisation are compatible
+:::
 
 
 ## Resources & References
+
