@@ -1,5 +1,5 @@
 ---
-title: "Open source research software and the FAIR4RS principles"
+title: "FAIR4RS:<br>A road towards open & sustainable research"
 format:
     revealjs:
         theme: [serif,custom.scss]
@@ -13,7 +13,7 @@ from: markdown+emoji
 css: style.css
 ---
 
-## LunchBytes
+## :electric_plug: LunchBytes
 ::: {.incremental}
 * :face_with_spiral_eyes: intermittent seminar series
 * :nerd_face: focus on technical tips and stories
@@ -25,7 +25,7 @@ css: style.css
     * [& many more!](https://rse.shef.ac.uk/community/lunch-bytes)
 :::
 
-## LunchBytes
+## :electric_plug: LunchBytes
 
 [rse.shef.ac.uk/community/lunch-bytes](https://rse.shef.ac.uk/community/lunch-bytes)
 
@@ -90,7 +90,23 @@ css: style.css
 
 <font size=2>[Barker *et al.* *Scientific Data* 9:622 (2022) "Introducing the FAIR Principles for research software" DOI: 10.1038/s41597-022-01710-x](https://dx.doi.org/10.1038/s41597-022-01710-x)</font>
 
-##
+## Is research software important?
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+![Do you use research software?](assets/images/ssurvey_use.png)
+:::
+::: {.column width="50%"}
+![How important is research software to your work?](assets/images/ssurvey_important.png)
+
+1 *"Not at all"*, to 5 *"Vital"*
+:::
+::::::::::::::
+
+<font size=2>[github.com/RSE-Sheffield/ssurvey](https://github.com/RSE-Sheffield/sssurvey)</font>
+<font size=2>[rse.shef.ac.uk/ssurvey](https://rse.shef.ac.uk/sssurvey)</font>
+
+## {#fair-slide-id data-menu-title="The FAIR Principles"}
 
 ![<font size="2">[The Turing Way](https://the-turing-way.netlify.app/reproducible-research/rdm/rdm-fair.html) project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: [10.5281/zenodo.3332807](https://dx.doi.org/10.5281/zenodo.3332807)</font>](assets/images/fair-principles.png)
 
@@ -228,3 +244,5 @@ css: style.css
 
 ## Resources & References
 
+
+# How do we do it?...
