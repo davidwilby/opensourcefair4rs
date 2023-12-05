@@ -29,9 +29,9 @@ filters:
 
 . . .
 
-[rse.shef.ac.uk/community/lunch-bytes](https://rse.shef.ac.uk/community/lunch-bytes)
+:globe_with_meridians: [rse.shef.ac.uk/community/lunch-bytes](https://rse.shef.ac.uk/community/lunch-bytes)
 
-[Join the RSE mailing list for announcements](https://groups.google.com/a/sheffield.ac.uk/g/rse-group)
+:envelope: [Join the RSE mailing list for announcements](https://groups.google.com/a/sheffield.ac.uk/g/rse-group)
 
 # FAIR Research Software:<br>A road towards open & sustainable research
 
