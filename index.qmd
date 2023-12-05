@@ -267,6 +267,16 @@ filters:
 
 Also see: [fair-software.eu](https://fair-software.eu) :fire:
 
+## Why? {.smaller}
+
+. . .
+
+> We aspire to open research culture that values a diverse range of contributions and adheres to the FAIR principles to enable the results of our research to be of maximum benefit to society (findable, accessible, interoperable and reusable), whilst also respecting circumstances that limit data sharing (for example, due to issues of privacy, non-consent, contractual agreements, legislation or practicality).
+
+*University of Sheffield, Statement on Open Research*
+
+<https://www.sheffield.ac.uk/openresearch/university-statement-open-research>
+
 ## Why?
 
 ::: {.columns}
