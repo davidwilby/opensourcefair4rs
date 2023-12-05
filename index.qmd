@@ -274,7 +274,7 @@ Also see: [fair-software.eu](https://fair-software.eu) :fire:
 ::: {.column width="50%"}
 
 ![](assets/images/scriberia-thecure.jpg)
-<font size=2>Better Science through Better Data 2017 (#scidata17) scibe images. <https://doi.org/10.6084/m9.figshare.5558653.v1></font>
+<font size=2>Better Science through Better Data 2017 (#scidata17) scribe images. <https://doi.org/10.6084/m9.figshare.5558653.v1></font>
 
 :::
 
@@ -317,7 +317,7 @@ Also see: [fair-software.eu](https://fair-software.eu) :fire:
 
 ::: {.column width="50%"}
 ![](assets/images/scriberia-mistakes.jpg)
-<font size=2>Better Science through Better Data 2017 (#scidata17) scibe images. <https://doi.org/10.6084/m9.figshare.5558653.v1></font>
+<font size=2>Better Science through Better Data 2017 (#scidata17) scribe images. <https://doi.org/10.6084/m9.figshare.5558653.v1></font>
 
 :::
 
