@@ -11,8 +11,8 @@ date: ""
 footer: "**slides**: [davidwilby.dev/opensourcefair4rs](https://davidwilby.dev/opensourcefair4rs) - **improve this talk!** [github.com/davidwilby/opensourcefair4rs](https://github.com/davidwilby/opensourcefair4rs)"
 from: markdown+emoji
 css: style.css
-filters: 
-    - newpagelink.lua
+filters:
+    - openlinksinnewpage
 ---
 
 ## :electric_plug: LunchBytes {.smaller}
