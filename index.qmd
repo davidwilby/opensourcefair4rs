@@ -310,6 +310,7 @@ Also see: [fair-software.eu](https://fair-software.eu) :fire:
     + only need to learn once
 + non-commercialisable?
     + open source and commercialisation are compatible
+    + greater impact through open source
 
 :::
 
