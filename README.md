@@ -1,5 +1,3 @@
-# 
-
 Slides for a talk on open source research software and the FAIR4RS principles.
 
 ## Events
